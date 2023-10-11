@@ -1,0 +1,64 @@
+h1{
+    color:black;
+    text-decoration: underline;
+    text-align: center;
+
+}
+nav,header,footer {
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    background:goldenrod;
+}
+
+div{
+   align-items: center;
+    padding: 0;
+    margin: auto;
+    display: block;
+    width: 400px;
+    margin-top: 0em;
+}
+
+canvas {
+    margin-top: 0em;
+    border: outset 10px yellow;
+    align-items: center;
+    padding: 0;
+    margin: auto;
+    display: block;
+    width: 400px;
+}
+
+input{
+    margin: 5px;
+    border-width: 5px;
+    width: 100px;
+    border-bottom-color: blue;
+    border-top-color: black;
+    border-left-color: white;
+    border-right-color: white;
+    align-items: center;
+}
+
+
+label {
+    cursor: default;
+    color:white;
+}
+
+nav li:hover{
+
+    
+    border-radius: 5px;
+    box-shadow: 0px 3px 5px #29b443;
+}
+
+p{
+    font-style: italic;
+    font-size: larger;
+    color: black;
+}
+
